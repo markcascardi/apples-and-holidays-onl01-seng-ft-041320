@@ -50,7 +50,7 @@ end
 def all_holidays_with_bbq(holiday_hash)
   all_holidays = {}
 
-  holiday_hash.each do |season, holidays|
+  holiday_hash.each do |_, holidays|
     all_holidays.merge!(holidays)
   end
 
